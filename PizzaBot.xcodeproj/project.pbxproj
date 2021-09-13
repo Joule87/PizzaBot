@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8616EC3826EC32B300E913B1 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616EC3726EC32B300E913B1 /* Regex.swift */; };
+		8616EC3E26EC330E00E913B1 /* BotInstructionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616EC3D26EC330E00E913B1 /* BotInstructionError.swift */; };
 		861939B126EBE58600CB4D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939B026EBE58600CB4D97 /* AppDelegate.swift */; };
 		861939B326EBE58600CB4D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939B226EBE58600CB4D97 /* SceneDelegate.swift */; };
 		861939B526EBE58600CB4D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939B426EBE58600CB4D97 /* ViewController.swift */; };
 		861939B826EBE58600CB4D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861939B626EBE58600CB4D97 /* Main.storyboard */; };
 		861939BA26EBE58700CB4D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861939B926EBE58700CB4D97 /* Assets.xcassets */; };
 		861939BD26EBE58700CB4D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861939BB26EBE58700CB4D97 /* LaunchScreen.storyboard */; };
-		861939C826EBE58700CB4D97 /* PizzaBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939C726EBE58700CB4D97 /* PizzaBotTests.swift */; };
+		861939C826EBE58700CB4D97 /* OrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939C726EBE58700CB4D97 /* OrderTests.swift */; };
 		861939D326EBE58700CB4D97 /* PizzaBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939D226EBE58700CB4D97 /* PizzaBotUITests.swift */; };
+		861939F426EBE76B00CB4D97 /* BotAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939EE26EBE76A00CB4D97 /* BotAction.swift */; };
+		861939F526EBE76B00CB4D97 /* OrderProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939EF26EBE76A00CB4D97 /* OrderProcessor.swift */; };
+		861939F626EBE76B00CB4D97 /* PizzaBotAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939F026EBE76A00CB4D97 /* PizzaBotAlpha.swift */; };
+		861939F726EBE76B00CB4D97 /* PizzaBotDeliveryOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939F126EBE76A00CB4D97 /* PizzaBotDeliveryOrder.swift */; };
+		861939F926EBE76B00CB4D97 /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939F326EBE76B00CB4D97 /* Axis.swift */; };
+		861939FE26EBE77200CB4D97 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861939FD26EBE77200CB4D97 /* Validator.swift */; };
+		86193A0326EBE77C00CB4D97 /* StringProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86193A0226EBE77C00CB4D97 /* StringProtocol+Extension.swift */; };
+		8638CC2A26ED2D990013FE7C /* BotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8638CC2926ED2D990013FE7C /* BotTests.swift */; };
+		867530E926EF7D9000F1F553 /* InstructionValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867530E826EF7D9000F1F553 /* InstructionValidatorTests.swift */; };
+		867530EE26EFA6D700F1F553 /* OrderRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867530ED26EFA6D700F1F553 /* OrderRule.swift */; };
+		867530F626EFAA7300F1F553 /* Substring+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867530F526EFAA7300F1F553 /* Substring+Extension.swift */; };
+		868C853226EE2D900028D84D /* RouteOptimizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868C853126EE2D900028D84D /* RouteOptimizer.swift */; };
+		868C853726EE2EA20028D84D /* RouteOptimizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868C853626EE2EA20028D84D /* RouteOptimizerTests.swift */; };
+		868C854226EE36240028D84D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868C854126EE36240028D84D /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8616EC3726EC32B300E913B1 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		8616EC3D26EC330E00E913B1 /* BotInstructionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotInstructionError.swift; sourceTree = "<group>"; };
 		861939AD26EBE58600CB4D97 /* PizzaBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861939B026EBE58600CB4D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		861939B226EBE58600CB4D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +62,25 @@
 		861939BC26EBE58700CB4D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861939BE26EBE58700CB4D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861939C326EBE58700CB4D97 /* PizzaBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		861939C726EBE58700CB4D97 /* PizzaBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaBotTests.swift; sourceTree = "<group>"; };
+		861939C726EBE58700CB4D97 /* OrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTests.swift; sourceTree = "<group>"; };
 		861939C926EBE58700CB4D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861939CE26EBE58700CB4D97 /* PizzaBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861939D226EBE58700CB4D97 /* PizzaBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaBotUITests.swift; sourceTree = "<group>"; };
 		861939D426EBE58700CB4D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861939EE26EBE76A00CB4D97 /* BotAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotAction.swift; sourceTree = "<group>"; };
+		861939EF26EBE76A00CB4D97 /* OrderProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderProcessor.swift; sourceTree = "<group>"; };
+		861939F026EBE76A00CB4D97 /* PizzaBotAlpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaBotAlpha.swift; sourceTree = "<group>"; };
+		861939F126EBE76A00CB4D97 /* PizzaBotDeliveryOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaBotDeliveryOrder.swift; sourceTree = "<group>"; };
+		861939F326EBE76B00CB4D97 /* Axis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
+		861939FD26EBE77200CB4D97 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		86193A0226EBE77C00CB4D97 /* StringProtocol+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extension.swift"; sourceTree = "<group>"; };
+		8638CC2926ED2D990013FE7C /* BotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotTests.swift; sourceTree = "<group>"; };
+		867530E826EF7D9000F1F553 /* InstructionValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionValidatorTests.swift; sourceTree = "<group>"; };
+		867530ED26EFA6D700F1F553 /* OrderRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRule.swift; sourceTree = "<group>"; };
+		867530F526EFAA7300F1F553 /* Substring+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Substring+Extension.swift"; sourceTree = "<group>"; };
+		868C853126EE2D900028D84D /* RouteOptimizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptimizer.swift; sourceTree = "<group>"; };
+		868C853626EE2EA20028D84D /* RouteOptimizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptimizerTests.swift; sourceTree = "<group>"; };
+		868C854126EE36240028D84D /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8616EC3C26EC330000E913B1 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				8616EC3D26EC330E00E913B1 /* BotInstructionError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 		861939A426EBE58600CB4D97 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +139,11 @@
 		861939AF26EBE58600CB4D97 /* PizzaBot */ = {
 			isa = PBXGroup;
 			children = (
-				861939B026EBE58600CB4D97 /* AppDelegate.swift */,
-				861939B226EBE58600CB4D97 /* SceneDelegate.swift */,
-				861939B426EBE58600CB4D97 /* ViewController.swift */,
-				861939B626EBE58600CB4D97 /* Main.storyboard */,
-				861939B926EBE58700CB4D97 /* Assets.xcassets */,
-				861939BB26EBE58700CB4D97 /* LaunchScreen.storyboard */,
-				861939BE26EBE58700CB4D97 /* Info.plist */,
+				86193A0A26EBE7B000CB4D97 /* Util */,
+				861939EC26EBE69A00CB4D97 /* Launch */,
+				861939EB26EBE69000CB4D97 /* Delivery */,
+				861939EA26EBE5FE00CB4D97 /* Delegates */,
+				861939E626EBE5B500CB4D97 /* Resources */,
 			);
 			path = PizzaBot;
 			sourceTree = "<group>";
@@ -113,8 +151,11 @@
 		861939C626EBE58700CB4D97 /* PizzaBotTests */ = {
 			isa = PBXGroup;
 			children = (
-				861939C726EBE58700CB4D97 /* PizzaBotTests.swift */,
+				861939C726EBE58700CB4D97 /* OrderTests.swift */,
+				8638CC2926ED2D990013FE7C /* BotTests.swift */,
+				868C853626EE2EA20028D84D /* RouteOptimizerTests.swift */,
 				861939C926EBE58700CB4D97 /* Info.plist */,
+				867530E826EF7D9000F1F553 /* InstructionValidatorTests.swift */,
 			);
 			path = PizzaBotTests;
 			sourceTree = "<group>";
@@ -126,6 +167,93 @@
 				861939D426EBE58700CB4D97 /* Info.plist */,
 			);
 			path = PizzaBotUITests;
+			sourceTree = "<group>";
+		};
+		861939E626EBE5B500CB4D97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				861939B926EBE58700CB4D97 /* Assets.xcassets */,
+				861939BE26EBE58700CB4D97 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		861939EA26EBE5FE00CB4D97 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				861939B026EBE58600CB4D97 /* AppDelegate.swift */,
+				861939B226EBE58600CB4D97 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		861939EB26EBE69000CB4D97 /* Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				86858C5726ED22BC00263C0D /* View */,
+				86858C5626ED22B400263C0D /* Controller */,
+				861939ED26EBE6C100CB4D97 /* Model */,
+			);
+			path = Delivery;
+			sourceTree = "<group>";
+		};
+		861939EC26EBE69A00CB4D97 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				861939BB26EBE58700CB4D97 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		861939ED26EBE6C100CB4D97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8616EC3C26EC330000E913B1 /* Error */,
+				861939F326EBE76B00CB4D97 /* Axis.swift */,
+				861939EE26EBE76A00CB4D97 /* BotAction.swift */,
+				861939EF26EBE76A00CB4D97 /* OrderProcessor.swift */,
+				861939F026EBE76A00CB4D97 /* PizzaBotAlpha.swift */,
+				861939F126EBE76A00CB4D97 /* PizzaBotDeliveryOrder.swift */,
+				8616EC3726EC32B300E913B1 /* Regex.swift */,
+				868C853126EE2D900028D84D /* RouteOptimizer.swift */,
+				867530ED26EFA6D700F1F553 /* OrderRule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86193A0A26EBE7B000CB4D97 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				861939FD26EBE77200CB4D97 /* Validator.swift */,
+				86193A0B26EBE7B800CB4D97 /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		86193A0B26EBE7B800CB4D97 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86193A0226EBE77C00CB4D97 /* StringProtocol+Extension.swift */,
+				868C854126EE36240028D84D /* Array+Extension.swift */,
+				867530F526EFAA7300F1F553 /* Substring+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		86858C5626ED22B400263C0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				861939B426EBE58600CB4D97 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		86858C5726ED22BC00263C0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				861939B626EBE58600CB4D97 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +388,20 @@
 			files = (
 				861939B526EBE58600CB4D97 /* ViewController.swift in Sources */,
 				861939B126EBE58600CB4D97 /* AppDelegate.swift in Sources */,
+				861939FE26EBE77200CB4D97 /* Validator.swift in Sources */,
+				868C853226EE2D900028D84D /* RouteOptimizer.swift in Sources */,
+				861939F726EBE76B00CB4D97 /* PizzaBotDeliveryOrder.swift in Sources */,
+				861939F426EBE76B00CB4D97 /* BotAction.swift in Sources */,
+				8616EC3E26EC330E00E913B1 /* BotInstructionError.swift in Sources */,
+				861939F626EBE76B00CB4D97 /* PizzaBotAlpha.swift in Sources */,
+				867530EE26EFA6D700F1F553 /* OrderRule.swift in Sources */,
 				861939B326EBE58600CB4D97 /* SceneDelegate.swift in Sources */,
+				86193A0326EBE77C00CB4D97 /* StringProtocol+Extension.swift in Sources */,
+				861939F926EBE76B00CB4D97 /* Axis.swift in Sources */,
+				868C854226EE36240028D84D /* Array+Extension.swift in Sources */,
+				867530F626EFAA7300F1F553 /* Substring+Extension.swift in Sources */,
+				861939F526EBE76B00CB4D97 /* OrderProcessor.swift in Sources */,
+				8616EC3826EC32B300E913B1 /* Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861939C826EBE58700CB4D97 /* PizzaBotTests.swift in Sources */,
+				868C853726EE2EA20028D84D /* RouteOptimizerTests.swift in Sources */,
+				867530E926EF7D9000F1F553 /* InstructionValidatorTests.swift in Sources */,
+				861939C826EBE58700CB4D97 /* OrderTests.swift in Sources */,
+				8638CC2A26ED2D990013FE7C /* BotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +582,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DLG5U7G57;
-				INFOPLIST_FILE = PizzaBot/Info.plist;
+				INFOPLIST_FILE = PizzaBot/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +591,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slice.PizzaBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,7 +602,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DLG5U7G57;
-				INFOPLIST_FILE = PizzaBot/Info.plist;
+				INFOPLIST_FILE = PizzaBot/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +611,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slice.PizzaBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
