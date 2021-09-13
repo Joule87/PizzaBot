@@ -10,16 +10,16 @@ Al instructions should comply with format 5x5 (0,0) (1,3) (4,4) (4,2) (4,2). 5x5
 You can execute this instruction clicking Execute button or pressing the phone keyboard "return" button. Is you turn on "Optimize Delivery switch" the bot will take the optimal route to navigate between locations
 
 ## PizzaBot output meaning
-N: move north
-E: move east
-S: move south
-O: move west
-D: deliver
+* N: move north
+* E: move east
+* S: move south
+* O: move west
+* D: deliver
 
 ## Sample
 Instruction: "4x4 (1,3) (1,2)"
-Not Optimized output: ENNNDSD
-Optimized output: ENNDND
+* Not Optimized output: ENNNDSD
+* Optimized output: ENNDND
 
 ## Architecture choose
 For this small project the native MVC architecture is perfect, it's the simplest architecture pattern, also the native approach promoted by Apple.
