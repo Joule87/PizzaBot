@@ -58,8 +58,8 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ptg-pe-U1g">
                                 <rect key="frame" x="345" y="215" width="51" height="31"/>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Optimize Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAt-Ql-u8u">
-                                <rect key="frame" x="201" y="220" width="134" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Optimize Delivery" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAt-Ql-u8u">
+                                <rect key="frame" x="20" y="220" width="315" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -84,6 +84,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Bc-Ke-ekI" secondAttribute="trailing" constant="20" id="mC5-4m-Xf9"/>
                             <constraint firstItem="Jbo-iU-5aC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pY9-aW-4JB"/>
                             <constraint firstItem="QAt-Ql-u8u" firstAttribute="centerY" secondItem="Ptg-pe-U1g" secondAttribute="centerY" id="qCq-KE-b0t"/>
+                            <constraint firstItem="QAt-Ql-u8u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="x4l-jz-Nbl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3A7-0f-FJk" secondAttribute="trailing" constant="25" id="xtm-3i-Ols"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g5v-I1-ydK" secondAttribute="trailing" constant="40" id="ylt-mF-z4C"/>
                             <constraint firstItem="9Bc-Ke-ekI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zKk-Pf-uBm"/>

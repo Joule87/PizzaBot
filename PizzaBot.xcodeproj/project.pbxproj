@@ -142,7 +142,6 @@
 				86193A0A26EBE7B000CB4D97 /* Util */,
 				861939EC26EBE69A00CB4D97 /* Launch */,
 				861939EB26EBE69000CB4D97 /* Delivery */,
-				861939EA26EBE5FE00CB4D97 /* Delegates */,
 				861939E626EBE5B500CB4D97 /* Resources */,
 			);
 			path = PizzaBot;
@@ -200,6 +199,7 @@
 		861939EC26EBE69A00CB4D97 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				861939EA26EBE5FE00CB4D97 /* Delegates */,
 				861939BB26EBE58700CB4D97 /* LaunchScreen.storyboard */,
 			);
 			path = Launch;
@@ -214,7 +214,6 @@
 				861939EF26EBE76A00CB4D97 /* OrderProcessor.swift */,
 				861939F026EBE76A00CB4D97 /* PizzaBotAlpha.swift */,
 				861939F126EBE76A00CB4D97 /* PizzaBotDeliveryOrder.swift */,
-				8616EC3726EC32B300E913B1 /* Regex.swift */,
 				868C853126EE2D900028D84D /* RouteOptimizer.swift */,
 				867530ED26EFA6D700F1F553 /* OrderRule.swift */,
 			);
@@ -224,7 +223,8 @@
 		86193A0A26EBE7B000CB4D97 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				861939FD26EBE77200CB4D97 /* Validator.swift */,
+				86424D1E26EFCCA300DD621B /* Helper */,
+				86424D1D26EFCC8700DD621B /* Constant */,
 				86193A0B26EBE7B800CB4D97 /* Extension */,
 			);
 			path = Util;
@@ -238,6 +238,22 @@
 				867530F526EFAA7300F1F553 /* Substring+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		86424D1D26EFCC8700DD621B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				8616EC3726EC32B300E913B1 /* Regex.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		86424D1E26EFCCA300DD621B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				861939FD26EBE77200CB4D97 /* Validator.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		86858C5626ED22B400263C0D /* Controller */ = {
