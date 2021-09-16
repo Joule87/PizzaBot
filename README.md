@@ -1,5 +1,5 @@
 ## Problem description
-![alt text](https://github.com/Joule87/Media/blob/master/PizzaBot/Slice_Code_Challenge.pdf)
+![Click here](https://github.com/Joule87/Media/blob/master/PizzaBot/Slice_Code_Challenge.pdf)
 
 ## Technologies used
 The app is written in Swift 5, with Xcode 12.2, UIKit as the ui framework, unit testing is done with the native tools provided by XCode
